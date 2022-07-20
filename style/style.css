@@ -19,8 +19,10 @@ main{
 a{
     text-decoration: none;
 }
-
-
+/* a:visited{
+    background-color: red;
+    color: white;
+} */
 /* Style banner section  */
 
 .container{
@@ -71,6 +73,8 @@ a{
 
 .banner-img{
     width: 80%;
+    /* margin: 0p; */
+    height: 100%
 }
 
  /* main content style  */
@@ -173,3 +177,36 @@ footer a{
     margin-right: 40px;
     font-size: 25px;
 }
+
+/* ----------------------------
+    Upcomming Match style
+---------------------------- */
+.single-game.match{
+    border: none;
+    border: 1px solid black;
+    height: 260px;
+    border: 1px solid rgba(114, 112, 112, 0.247);
+}
+.country-img{
+    width: 252px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 30px 5px 30px;
+}
+.country-img img{
+    width: 93px;
+    height: 56px;
+}
+
+.match-info{
+    text-align: center;
+}
+.match-info h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.match-info p{
+    color: #4D4D4D;
+}
+
