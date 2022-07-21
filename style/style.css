@@ -2,7 +2,6 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&family=Roboto&family=Roboto+Slab&display=swap');
 
- /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,500;1,600&family=Roboto&family=Roboto+Slab&display=swap'); */
 
 /* unique design */
 body{
@@ -20,10 +19,7 @@ main{
 a{
     text-decoration: none;
 }
-/* a:visited{
-    background-color: red;
-    color: white;
-} */
+
 /* Style banner section  */
 
 .container{
@@ -34,6 +30,9 @@ a{
     border-radius: 10px;
     padding: 0 50px;
     margin: 50px 120px;
+}
+.container:hover{
+    background-image: url(../assets/football_field.jpg);
 }
 
 .half-width{
@@ -185,6 +184,13 @@ footer a{
     color: #B9B9B9;
     margin-right: 40px;
     font-size: 25px;
+}
+.social-media{
+    margin-top: 30px;
+}
+
+.social-media a{
+    margin-right: 10px;
 }
 
 /* ----------------------------
